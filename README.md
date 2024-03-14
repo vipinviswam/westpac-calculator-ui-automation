@@ -31,7 +31,6 @@ https://github.com/vipinviswam/westpac-calculator-ui-automation.git
     * NodeJS
     * NPM - version 7 or higher
     * Yarn
-    * Docker
 ### Install dependencies
 ```
 yarn install
@@ -42,11 +41,7 @@ yarn install
     In terminal
         chmod +x run_test.sh
         ./run_test.sh tag
-        supported tags - dev, smoke, regression
-    
-    running in Docker
-        qa - docker-compose up --build
-        sit - docker-compose-sit up --build
+       -- supported tags - dev, smoke, regression
 
 ## Reports
     e2e/reports
