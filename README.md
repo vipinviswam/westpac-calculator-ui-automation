@@ -40,7 +40,8 @@ yarn install
 ## Running Test - Local - e2e
     In terminal
         chmod +x run_test.sh
-        ./run_test.sh tag
+        ./run_test.sh "env" "tag"
+        -- env - localhost, qa
        -- supported tags - dev, smoke, regression
 
 ## Reports
