@@ -1,0 +1,36 @@
+{
+  "name": "Westpac-Calculator",
+  "version": "0.1",
+  "description": "Westpac Coding Challenge",
+  "main": "index.js",
+  "author": "Vipin Viswanathan",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "precucumber": "rimraf e2e/reports && mkdir e2e/reports && echo {} > e2e/reports/report.json",
+    "transpile": "rimraf dist && babel --extensions .ts --out-dir dist e2e/src",
+    "cucumber": "yarn transpile && cucumber-js",
+    "cucumber:localhost": "NODE_ENV=localhost COMMON_CONFIG_FILE=e2e/env/common.env yarn cucumber",
+    "cucumber:qa": "NODE_ENV=qa COMMON_CONFIG_FILE=e2e/env/common.env yarn cucumber",
+    "postcucumber": "COMMON_CONFIG_FILE=e2e/env/common.env ts-node ./e2e/src/reporter/cucumber-report.ts"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@cucumber/cucumber": "8.0.0",
+    "@playwright/test": "^1.42.1",
+    "@types/faker": "^6.6.9",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.4.5",
+    "faker": "5.5.3",
+    "playwright": "^1.42.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/node": "^20.11.27"
+  }
+}

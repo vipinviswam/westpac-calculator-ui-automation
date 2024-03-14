@@ -1,0 +1,3 @@
+{
+  "Open the calculator": "[id='kiwisaver-schem'] >> span:has-text('Open the calculator')"
+}

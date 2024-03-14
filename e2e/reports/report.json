@@ -1,0 +1,279 @@
+[
+  {
+    "description": "  \"\"\"\n  This feature is to test the kiwi saver growth calculator by answering all the questions\n  \"\"\"",
+    "elements": [
+      {
+        "description": "",
+        "id": "kiwi-saver-growth-calculator;as-a-user-i-should-be-able-to-see-the-growth-calculator-accordingly",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "As a user I should be able to see the growth calculator accordingly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3500605809
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the \"calculator\" page",
+            "match": {
+              "location": "e2e/src/step-definitions/navigations.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9577232519
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click the \"Open the calculator\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1136068801
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I fill in the \"current age\" input with \"33\"",
+            "match": {
+              "location": "e2e/src/step-definitions/input.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540015422
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the \"next question\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2181263671
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click the \"first home\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 802479133
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click the \"years first home\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 982171980
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click the \"in 3 years\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 554617525
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click the \"employment status\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1194431439
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the \"employed\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 438842909
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I fill in the \"income\" input with \"100000\"",
+            "match": {
+              "location": "e2e/src/step-definitions/input.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493539155
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click the \"income next question\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 729946720
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I fill in the \"kiwi saver balance\" input with \"10000\"",
+            "match": {
+              "location": "e2e/src/step-definitions/input.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 745296177
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click the \"kiwi saver next question\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 536252774.00000006
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click the \"contribution rate\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 710457381
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click the \"contribution percentage\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400529559
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click the \"current fund\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 835370140
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click the \"conservative\" button",
+            "match": {
+              "location": "e2e/src/step-definitions/click.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439658838
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "\"current projection\" should contain the value \"$25,742\"",
+            "match": {
+              "location": "e2e/src/step-definitions/assertions/verify-element-value.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1589684185
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 6
+          },
+          {
+            "name": "@regression",
+            "line": 7
+          },
+          {
+            "name": "@dev",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "kiwi-saver-growth-calculator",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Kiwi saver growth calculator",
+    "tags": [],
+    "uri": "e2e/src/features/01-kiwisaver-growth-calculator.feature"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "localhost": "https://www.westpac.co.nz",
+  "qa": "https://www.westpac.co.nz",
+  "sit" : "https://www.westpac.co.nz",
+  "uat" : "https://www.westpac.co.nz"
+}

@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  westpack-kiwi-calculator:
+    build: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - ${PWD}/e2e/reports:/usr/app/reports:rw
+    command: ["sh", "-c", "echo $PWD && ls && ./run_test.sh dev"]

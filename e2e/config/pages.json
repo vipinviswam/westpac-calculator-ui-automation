@@ -1,0 +1,10 @@
+{
+  "home": {
+    "route": "/",
+    "regex": "^/$"
+  },
+  "calculator": {
+    "route": "/kiwisaver-investments/kiwisaver/kiwisaver-calculators/kiwisaver-calculator/",
+    "regex": "^/kiwisaver-investments/kiwisaver/kiwisaver-calculators/kiwisaver-calculator/"
+  }
+}

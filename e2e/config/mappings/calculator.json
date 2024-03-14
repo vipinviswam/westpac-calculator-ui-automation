@@ -1,0 +1,18 @@
+{
+  "current age": "[id='text-QUESTION_AGE']",
+  "next question": "span:has-text('Next Question')",
+  "first home": "[aria-label='What will you be using your KiwiSaver savings for first?'] >> span:has-text('First Home') >>nth=0",
+  "years first home": "[aria-labelledby='dropdown-QUESTION_WHEN_TO_BUY_HOME']",
+  "in 3 years": "[aria-labelledby='dropdown-QUESTION_WHEN_TO_BUY_HOME'] >> [data-value='In 3 years']",
+  "employment status": "[aria-labelledby='dropdown-QUESTION_EMPLOYMENT_STATUS']",
+  "employed": "[data-value='Employed']",
+  "income": "[id='text-QUESTION_INCOME']",
+  "income next question": "label:has-text('What’s your income') >> xpath=../.. >> button >> span:has-text('Next Question')",
+  "kiwi saver balance":"[id='text-QUESTION_KIWISAVER_BALANCE']",
+  "kiwi saver next question": "[id='text-QUESTION_KIWISAVER_BALANCE'] >> xpath=../../.. >> button >> span:has-text('Next Question')",
+  "contribution rate": "[aria-labelledby='dropdown-QUESTION_CONTRIBUTION_PERCENTAGE']",
+  "contribution percentage": "[data-value='3%']",
+  "current fund": "[aria-labelledby='dropdown-QUESTION_CURRENT_FUND']",
+  "conservative": "[data-value='Conservative']",
+  "current projection": "[data-testid='kiwisaver-projections-full-screen-dialog'] >> h2:has-text('Your current projection.') >> xpath=.. >> span:has-text('$25,742')"
+}
