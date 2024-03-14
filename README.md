@@ -51,3 +51,20 @@ yarn install
 ## Reports
     e2e/reports
 
+```mermaid
+    flowchart TD
+    A[cucumberjs] -->B[index.ts]
+    U[Common.env] -->B
+    W[WebElements] --> B
+    B --> C(feature-1)
+    B --> D(feature-2)
+    C --> |Hooks| E(Step-Definition)
+    D --> |Hooks| F(Step-Definition)
+    D --> |Hooks| E(Step-Definition)
+    E --> |WebActions| G(Playwright)
+    F --> |WebActions| G(Playwright)
+    E --> |WebActions| G(Playwright)
+    G -->|Browser| H[Application]
+    C -->|hooks| I[Step-Definition]
+    I --> |WebActions| G(Playwright)
+```
